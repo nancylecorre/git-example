@@ -2,6 +2,14 @@ SHIFT = 3
 COMMENT = '#'
 climate_data = open('data/sc_climate_data_10.csv', 'r')
 
+"""Converts fahrenheit to kelvin
+
+    Args:
+        fahr (float): temperature in fahrenheit
+
+    Returns:
+        float: temperature in kelvin
+"""
 
 def FahrToCelsius(fahr):
     """COnverts fahrenehit to celsius
